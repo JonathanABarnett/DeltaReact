@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 import axios from "axios";
+import { Header, List } from "semantic-ui-react";
 
 function App() {
   const [attendees, setAttendees] = useState([]);
@@ -14,13 +15,14 @@ function App() {
 
   return (
     <div className="app">
-      <ul>
+      <Header as="h2" icon="users" content="Delta React" />
+      <List>
         {attendees.map((attendee: any) => (
-          <li key={attendee.id}>
-            {attendee.FirstName} {attendee.LastName}
-          </li>
+          <List.Item key={attendee.id}>
+            {attendee.firstName} {attendee.lastName}
+          </List.Item>
         ))}
-      </ul>
+      </List>
     </div>
   );
 }
