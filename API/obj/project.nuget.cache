@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mP4dlKVlE1iC2LRmPXFAD9Afi909mupFrIkF2cVSAHgaN4kAkIkrfAml4VJVIzVPBM8EkGV9eY7xa1DQ/eyyrQ==",
+  "dgSpecHash": "0MFUIi2gskVv9+/NAGo8FQtrkW30yswpJQMmjV6LyZMposcBRY/EzBaPK3d/slh41goRkFut579cRl9MtqWguw==",
   "success": true,
-  "projectFilePath": "D:\\Programming\\React\\DeltaReact\\API\\API.csproj",
+  "projectFilePath": "D:\\Programming\\React\\DeltaReact\\api\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jonat\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\jonat\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.1\\microsoft.aspnetcore.authentication.jwtbearer.5.0.1.nupkg.sha512",
