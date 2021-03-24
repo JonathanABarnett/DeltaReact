@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "LRtWpPVCA6/6I0tI6HO2kD4qCuGumsF9/B9JQxfy3SBIf+t6JiAgJpPknYlhQi9BUszfqsd+I2zA7eNMrApLSA==",
+  "dgSpecHash": "WdL2bzzhgsVx0C8g9drcWoPGGySnF+018T/lS0BarDcXv4Gfczja9Qyc3APHTy0KEaMvEvF++2IdgQ6wNlLFLw==",
   "success": true,
   "projectFilePath": "D:\\Programming\\React\\DeltaReact\\Application\\Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\jonat\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\jonat\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "C:\\Users\\jonat\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.1\\microsoft.data.sqlite.core.5.0.1.nupkg.sha512",
     "C:\\Users\\jonat\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",
     "C:\\Users\\jonat\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.1\\microsoft.entityframeworkcore.5.0.1.nupkg.sha512",
