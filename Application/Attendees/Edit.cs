@@ -1,5 +1,6 @@
 using System.Threading;
 using System.Threading.Tasks;
+using AutoMapper;
 using Domain;
 using MediatR;
 using Persistence;
@@ -16,8 +17,10 @@ namespace Application.Attendees
         public class Handler : IRequestHandler<Command>
         {
             private readonly DataContext _context;
-            public Handler(DataContext context)
+            private readonly IMapper _mapper;
+            public Handler(DataContext context, IMapper mapper)
             {
+                _mapper = mapper;
                 _context = context;
             }
 
@@ -25,7 +28,8 @@ namespace Application.Attendees
             {
                 var attendee = await _context.Attendees.FindAsync(request.Attendee.Id);
 
-                attendee.City = request.Attendee.City ?? attendee.City;
+                // (Map From, Map To)
+                _mapper.Map(request.Attendee, attendee);
 
                 await _context.SaveChangesAsync();
 
